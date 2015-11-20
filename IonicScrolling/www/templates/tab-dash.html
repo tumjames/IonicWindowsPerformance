@@ -1,0 +1,24 @@
+<ion-view view-title="Dashboard">
+    <ion-content class="padding">
+
+        <div class="list card">
+            <div class="item item-divider">Pencils</div>
+
+            <div class="item item-body">
+                <div class="list card"
+                     ng-repeat="item in pencils">
+
+                    <div class="item item-divider">
+                        {{item.name | uppercase}}
+                    </div>
+                    <div class="item item-body">
+                        <div>
+                            {{item.country | uppercase}}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
