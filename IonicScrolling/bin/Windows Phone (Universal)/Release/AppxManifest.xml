@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.ionicframework.ionicscrolling742202" Publisher="CN=$username$" Version="0.0.1.0" ProcessorArchitecture="arm" />
+  <Identity Name="com.ionicframework.ionicscrolling742202" Publisher="CN=$username$" Version="0.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="21915250-8ea8-11e5-9972-a515c5e2560c" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>IonicScrolling</DisplayName>

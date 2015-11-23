@@ -1,0 +1,7 @@
+/* Empty. Add your own CSS if you like */
+.img-wChar{
+    height: 50px;
+    width: 50px;
+    -webkit-animation: fa-spin 3s infinite linear;
+    animation: fa-spin 3s infinite linear;
+}

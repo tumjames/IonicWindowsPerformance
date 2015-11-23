@@ -1,0 +1,30 @@
+<ion-view view-title="Dashboard">
+    <ion-content class="padding">
+        <img src="img/Wchar.svg"  width="40" height="40"/>
+        <object type="image/svg+xml" data="img/Wchar.svg"
+                width="40" height="40" border="0"></object>
+        <div class="list card">
+            <div class="item item-divider">Pencils</div>
+
+            <div class="item item-body">
+                <div class="list card"
+                     ng-repeat="item in pencils">
+                    <div class="img-wChar">
+                        <img src="img/Wchar.svg" width="40" height="40" />
+
+                    </div>
+
+                    <div class="item item-divider">
+                        {{item.name | uppercase}}
+                    </div>
+                    <div class="item item-body">
+                        <div>
+                            {{item.country | uppercase}}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
